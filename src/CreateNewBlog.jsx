@@ -11,8 +11,8 @@ let CreateNewBlog = (props)=>{
         <textarea className = "inputBody" placeholder = "What's in Your Mind....."></textarea>
         <div className = "Btn">
 
-        <Link to = "./home"><button className = "newBlogBackBtn">Back</button></Link>
-        <Link to = "./home"><button className = "newBlogSubmitBtn" onClick = {()=>{
+        <Link to = "./"><button className = "newBlogBackBtn">Back</button></Link>
+        <Link to = "./"><button className = "newBlogSubmitBtn" onClick = {()=>{
 
             let blogTitle = document.querySelector(".inputTitle");
             let blogBody = document.querySelector(".inputBody");
