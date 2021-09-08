@@ -31,7 +31,7 @@ let Login = (props)=>{
 
     return <div className = "loginContainer" >
 
-        {props.user ? <Redirect to="/home" /> : ""}
+        {props.user ? <Redirect to="/" /> : ""}
         
         <button className = "loginBtn btn btn-primary m-4" onClick={signInWithGoogle}
     type="submit"
