@@ -1,0 +1,59 @@
+.newBlogContainer {
+  /* background-color: darkgray; */
+  max-height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputTitle{
+  width: 100%;
+  min-height: 2.5rem;
+  margin: 20px;
+  font-size: 22px;
+}
+
+
+.inputBody{
+    width: 100%;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.inputBody , .inputTitle{
+    outline: none;
+    border: none;
+        box-shadow: 0px 0px 5px white;
+}
+
+.Btn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Btn *{
+    height: 2rem;
+    width: 4rem;
+}
+
+.newBlogBackBtn{
+    background-color: #f39c12;
+}
+
+.newBlogBackBtn:hover{
+    background-color: #c0392b;
+}
+
+.newBlogSubmitBtn{
+    background-color: #2ecc71;
+
+}
+
+.newBlogSubmitBtn:hover{
+    background-color: #16a085;
+}

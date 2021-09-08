@@ -1,0 +1,26 @@
+
+
+
+.loginContainer{
+    height: 3rem;
+    width: 13rem;
+    border: none;
+    box-shadow: 0px 0px 30px #808080;
+}
+
+.loginBtn{
+    height: 100%;
+    width: 100%;
+    background: gray;
+    font-size: 17px;
+    font-style: unset;
+    font-family: cursive;
+    cursor: pointer;
+    border :none;
+}
+
+.loginBtn:hover{
+    background-color: red;
+    box-shadow: 0px 0px 30px red;
+    border: none;
+}
