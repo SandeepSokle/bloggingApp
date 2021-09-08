@@ -28,7 +28,7 @@ let HomePage = (props) => {
       {
         // console.log(props.post)
         props.post.map((ele)=>{
-          return ( <Link to = "/home/blog"><li className="listOfBlogs" key = {ele.id} onClick = {()=>{
+          return ( <Link to = "/blog"><li className="listOfBlogs" key = {ele.id} onClick = {()=>{
             
             props.selectUser(ele.id);
           }}>{ele.blogTitle}</li></Link>)
