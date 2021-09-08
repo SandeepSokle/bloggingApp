@@ -59,6 +59,9 @@ useEffect(() => {
           <Route path="/login">
             <Login setUser={setUser} user={user} />
           </Route>
+<Route path="/home">
+           <HomePage user={user} post={posts} selectUser={setSelectedUser} />
+          </Route>
           <Route path="/">
             <HomePage user={user} post={posts} selectUser={setSelectedUser} />
           </Route>
