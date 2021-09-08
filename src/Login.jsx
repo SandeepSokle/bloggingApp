@@ -30,10 +30,11 @@ let Login = (props)=>{
 
 
     return <div className = "loginContainer" >
+
         {props.user ? <Redirect to="/home" /> : ""}
-        <button className = "loginBtn" onClick={signInWithGoogle}
+        
+        <button className = "loginBtn btn btn-primary m-4" onClick={signInWithGoogle}
     type="submit"
-    className="btn btn-primary m-4"
   >Login Using Google</button></div>
 }
 
