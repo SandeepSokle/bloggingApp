@@ -24,15 +24,17 @@ let Blog = (props)=>{
 }
 }, [props.allPost,props.user])
 
-    return (
-props.user === "" ? <Redirect to = "/"></Redirect> :
-    
-    <div className = "blogDataContainer">
+   return (
+        <div className = "blogDataContainer">
+        {props.user === "" ? <Redirect to = "/"></Redirect> :
+            <>
 
         <div className = "blogTitle">{newDataTitle} </div>
 
         <div className = "blogBody">{newDataBody} </div>
         <button className = "blogBackBtn"><Link to = "/home">Back</Link></button>
+
+        </>}
     </div>)
 }
 
