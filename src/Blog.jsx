@@ -32,7 +32,7 @@ let Blog = (props)=>{
         <div className = "blogTitle">{newDataTitle} </div>
 
         <div className = "blogBody">{newDataBody} </div>
-        <button className = "blogBackBtn"><Link to = "/home">Back</Link></button>
+        <button className = "blogBackBtn"><Link to = "/">Back</Link></button>
 
         </>}
     </div>)
