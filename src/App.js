@@ -9,7 +9,7 @@ import CreateNewBlog from "./CreateNewBlog";
 import Blog from "./Blog";
 import HomePage from "./HomePage";
 import Login from "./Login";
-import firebase , { firestore } from "./firebase"
+import  { firestore } from "./firebase"
 
 
 let App = () => {
@@ -32,7 +32,7 @@ useEffect(() => {
           let tempArr = [];
 
           querySnapshot.forEach((doc) => {
-            if (uniId == doc.data().uid) {
+            if (uniId === doc.data().uid) {
               tempArr.push({
                 id: doc.id,
                 blogTitle: doc.data().title,

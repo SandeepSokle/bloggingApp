@@ -25,7 +25,7 @@ let Login = (props)=>{
             props.setUser(user);
           }
         });
-      }, []);
+      }, [props]);
 
 
 

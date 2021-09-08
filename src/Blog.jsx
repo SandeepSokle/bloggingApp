@@ -18,7 +18,7 @@ let Blog = (props)=>{
     setNewDataTitle(temp[0].blogTitle)
     setNewDataBody(temp[0].blogBody)
     console.log(temp[0]);
-}, [])
+}, [props.allPost,props.user])
 
 
     return <div className = "blogDataContainer">
