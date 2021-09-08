@@ -50,7 +50,7 @@ useEffect(() => {
     <>
       <Router>
         <Switch>
-          <Route path="/home/blog">
+          <Route path="/blog">
             <Blog allPost={posts} user={selectUser} />
           </Route>
           <Route path="/newblog">
